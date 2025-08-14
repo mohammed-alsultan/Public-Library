@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/loadscreenbackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvBorrowRequestsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Borrow Requests"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:paddingBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerBorrowRequests"
+        android:layout_width="match_parent"
+        android:outlineSpotShadowColor="@color/white"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

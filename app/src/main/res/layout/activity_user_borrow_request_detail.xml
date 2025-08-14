@@ -1,0 +1,21 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/loadscreenbackground"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/tvDetailTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Title" android:textColor="@color/white"
+            style="@style/TextAppearance.Material3.BodyLarge"/>
+        <TextView android:id="@+id/tvDetailAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Author" android:textColor="@color/white" style="@style/TextAppearance.Material3.BodyLarge"/>
+        <TextView android:id="@+id/tvDetailCategory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Category" android:textColor="@color/white" style="@style/TextAppearance.Material3.BodyLarge"/>
+        <TextView android:id="@+id/tvDetailStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Status" android:textColor="@color/white" style="@style/TextAppearance.Material3.BodyLarge"/>
+        <TextView android:id="@+id/tvDetailBorrowDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Borrow Date" android:textColor="@color/white" style="@style/TextAppearance.Material3.BodyLarge"/>
+        <TextView android:id="@+id/tvDetailDueDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Due Date" android:textColor="@color/white" style="@style/TextAppearance.Material3.BodyLarge"/>
+        <TextView android:id="@+id/tvDetailPenalty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Penalty" android:textColor="@color/white" style="@style/TextAppearance.Material3.BodyLarge"/>
+        <TextView android:id="@+id/tvDetailAdminComment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Admin Comment" android:textColor="@color/white" style="@style/TextAppearance.Material3.BodyLarge"/>
+    </LinearLayout>
+</ScrollView>
